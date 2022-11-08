@@ -2,6 +2,7 @@
   "name": "www",
   "packageManager": "yarn@3.0.2",
   "dependencies": {
+    "typescript": "^4.8.4",
     "webpack": "^5.74.0"
   }
 }

@@ -846,6 +846,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["typescript", [
+        ["patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=32657b", {
+          "packageLocation": "./.yarn/cache/typescript-patch-82c55e516e-a328d5c41f.zip/node_modules/typescript/",
+          "packageDependencies": [
+            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=32657b"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["update-browserslist-db", [
         ["npm:1.0.10", {
           "packageLocation": "./.yarn/cache/update-browserslist-db-npm-1.0.10-676baf0b9f-12db73b4f6.zip/node_modules/update-browserslist-db/",
@@ -949,6 +958,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./services/www/",
           "packageDependencies": [
             ["www", "workspace:services/www"],
+            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=32657b"],
             ["webpack", "virtual:416c497ef8804ef1f09cf1ed62b2507c8c8aba2ec2d43d95b562c7b81f42864e2b58335c589f1d9d4a370cb1bfd151f1b20912ba2cdd0ef763275a5779ebef25#npm:5.74.0"]
           ],
           "linkType": "SOFT",

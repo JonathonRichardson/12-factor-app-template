@@ -1,6 +1,6 @@
 {
-    "recommendations": [
-        "mhutchie.git-graph",
-        "arcanis.vscode-zipfs"
-    ]
+  "recommendations": [
+    "mhutchie.git-graph",
+    "arcanis.vscode-zipfs"
+  ]
 }

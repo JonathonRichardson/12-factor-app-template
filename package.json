@@ -1,4 +1,7 @@
 {
     "private": true,
-    "workspaces": ["services/www", "services/dev-portal"]
-  }
+    "workspaces": [
+        "services/www",
+        "services/dev-portal"
+    ]
+}

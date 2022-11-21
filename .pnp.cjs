@@ -189,6 +189,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/react-dom", [\
+      ["npm:18.0.9", {\
+        "packageLocation": "../../../.yarn/berry/cache/@types-react-dom-npm-18.0.9-e52458db76-9.zip/node_modules/@types/react-dom/",\
+        "packageDependencies": [\
+          ["@types/react-dom", "npm:18.0.9"],\
+          ["@types/react", "npm:18.0.25"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/scheduler", [\
       ["npm:0.16.2", {\
         "packageLocation": "../../../.yarn/berry/cache/@types-scheduler-npm-0.16.2-ba3a7d8c68-9.zip/node_modules/@types/scheduler/",\
@@ -1258,6 +1268,30 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-dom", [\
+      ["npm:18.2.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/react-dom-npm-18.2.0-dd675bca1c-9.zip/node_modules/react-dom/",\
+        "packageDependencies": [\
+          ["react-dom", "npm:18.2.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:416c497ef8804ef1f09cf1ed62b2507c8c8aba2ec2d43d95b562c7b81f42864e2b58335c589f1d9d4a370cb1bfd151f1b20912ba2cdd0ef763275a5779ebef25#npm:18.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-dom-virtual-1936735d1c/4/.yarn/berry/cache/react-dom-npm-18.2.0-dd675bca1c-9.zip/node_modules/react-dom/",\
+        "packageDependencies": [\
+          ["react-dom", "virtual:416c497ef8804ef1f09cf1ed62b2507c8c8aba2ec2d43d95b562c7b81f42864e2b58335c589f1d9d4a370cb1bfd151f1b20912ba2cdd0ef763275a5779ebef25#npm:18.2.0"],\
+          ["@types/react", "npm:18.0.25"],\
+          ["loose-envify", "npm:1.4.0"],\
+          ["react", "npm:18.2.0"],\
+          ["scheduler", "npm:0.23.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["rechoir", [\
       ["npm:0.8.0", {\
         "packageLocation": "../../../.yarn/berry/cache/rechoir-npm-0.8.0-fb660b3bc8-9.zip/node_modules/rechoir/",\
@@ -1315,6 +1349,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/safe-buffer-npm-5.2.1-3481c8aa9b-9.zip/node_modules/safe-buffer/",\
         "packageDependencies": [\
           ["safe-buffer", "npm:5.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["scheduler", [\
+      ["npm:0.23.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/scheduler-npm-0.23.0-a379a6bc3b-9.zip/node_modules/scheduler/",\
+        "packageDependencies": [\
+          ["scheduler", "npm:0.23.0"],\
+          ["loose-envify", "npm:1.4.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1759,7 +1803,9 @@ const RAW_RUNTIME_STATE =
           ["www", "workspace:services/www"],\
           ["@types/node", "npm:18.11.9"],\
           ["@types/react", "npm:18.0.25"],\
+          ["@types/react-dom", "npm:18.0.9"],\
           ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:416c497ef8804ef1f09cf1ed62b2507c8c8aba2ec2d43d95b562c7b81f42864e2b58335c589f1d9d4a370cb1bfd151f1b20912ba2cdd0ef763275a5779ebef25#npm:18.2.0"],\
           ["ts-loader", "virtual:416c497ef8804ef1f09cf1ed62b2507c8c8aba2ec2d43d95b562c7b81f42864e2b58335c589f1d9d4a370cb1bfd151f1b20912ba2cdd0ef763275a5779ebef25#npm:9.4.1"],\
           ["typescript", "patch:typescript@npm%3A4.9.2-rc#optional!builtin<compat/typescript>::version=4.9.2-rc&hash=d73830"],\
           ["webpack", "virtual:416c497ef8804ef1f09cf1ed62b2507c8c8aba2ec2d43d95b562c7b81f42864e2b58335c589f1d9d4a370cb1bfd151f1b20912ba2cdd0ef763275a5779ebef25#npm:5.74.0"],\

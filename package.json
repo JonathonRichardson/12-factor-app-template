@@ -4,5 +4,8 @@
     "workspaces": [
         "services/www",
         "services/dev-portal"
-    ]
+    ],
+    "dependencies": {
+        "typescript": "4.9.2-rc"
+    }
 }

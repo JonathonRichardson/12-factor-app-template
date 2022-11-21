@@ -36,6 +36,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["typescript", "patch:typescript@npm%3A4.9.2-rc#optional!builtin<compat/typescript>::version=4.9.2-rc&hash=d73830"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -716,7 +717,8 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["root-workspace-0b6124", "workspace:."]\
+          ["root-workspace-0b6124", "workspace:."],\
+          ["typescript", "patch:typescript@npm%3A4.9.2-rc#optional!builtin<compat/typescript>::version=4.9.2-rc&hash=d73830"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -844,10 +846,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["typescript", [\
-      ["patch:typescript@npm%3A4.8.4#optional!builtin<compat/typescript>::version=4.8.4&hash=0102e9", {\
-        "packageLocation": "../../../.yarn/berry/cache/typescript-patch-138a1f9b0c-9.zip/node_modules/typescript/",\
+      ["patch:typescript@npm%3A4.9.2-rc#optional!builtin<compat/typescript>::version=4.9.2-rc&hash=d73830", {\
+        "packageLocation": "../../../.yarn/berry/cache/typescript-patch-65d0d8417a-9.zip/node_modules/typescript/",\
         "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A4.8.4#optional!builtin<compat/typescript>::version=4.8.4&hash=0102e9"]\
+          ["typescript", "patch:typescript@npm%3A4.9.2-rc#optional!builtin<compat/typescript>::version=4.9.2-rc&hash=d73830"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -957,7 +959,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./services/www/",\
         "packageDependencies": [\
           ["www", "workspace:services/www"],\
-          ["typescript", "patch:typescript@npm%3A4.8.4#optional!builtin<compat/typescript>::version=4.8.4&hash=0102e9"],\
+          ["typescript", "patch:typescript@npm%3A4.9.2-rc#optional!builtin<compat/typescript>::version=4.9.2-rc&hash=d73830"],\
           ["webpack", "virtual:416c497ef8804ef1f09cf1ed62b2507c8c8aba2ec2d43d95b562c7b81f42864e2b58335c589f1d9d4a370cb1bfd151f1b20912ba2cdd0ef763275a5779ebef25#npm:5.74.0"]\
         ],\
         "linkType": "SOFT"\

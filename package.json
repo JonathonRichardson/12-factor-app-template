@@ -6,6 +6,7 @@
         "services/dev-portal"
     ],
     "dependencies": {
-        "typescript": "4.9.2-rc"
+        "typescript": "4.9.2-rc",
+        "webpack-cli": "^5.0.0"
     }
 }

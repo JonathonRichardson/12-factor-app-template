@@ -6,6 +6,12 @@ module.exports = {
   'mode': 'development',
   entry: './src/index.ts',
   devtool: 'inline-source-map',
+  devServer: {
+    port: 9000,
+    //static: './dist',
+    hot: true,
+    historyApiFallback: true,
+  },
   module: {
     rules: [
       {

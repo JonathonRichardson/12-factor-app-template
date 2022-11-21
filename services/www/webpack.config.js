@@ -20,8 +20,49 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.(scss|css)$/,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
+        test: /\.module\.(scss|css)$/,
+        use: [
+          'style-loader',
+          {
+            loader: "css-loader",
+            options: {
+              modules: {
+                localIdentName: "[path][name]__[local]--[hash:base64:5]",
+              }
+            }
+          }
+          ,'sass-loader'
+        ],
+      },
+      {
+        test: /(?<!\.module)\.s[ac]ss$/i,
+        use: [
+            // Creates `style` nodes from JS strings
+            "style-loader",
+            // Translates CSS into CommonJS
+            {
+              loader: "css-loader",
+              options: {
+                modules: false,
+              }
+            },
+        ],
+      },
+      {
+        test: /\.css$/i,
+        use: [
+            // Creates `style` nodes from JS strings
+            "style-loader",
+            // Translates CSS into CommonJS
+            {
+              loader: "css-loader",
+              options: {
+                modules: false,
+              }
+            },
+            // Compiles Sass to CSS
+            "sass-loader",
+        ],
       },
     ],
   },

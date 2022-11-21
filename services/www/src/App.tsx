@@ -1,9 +1,11 @@
 import * as React from "react";
-import "./App.scss";
+import styles from "./App.module.scss";
+
+console.log('styles', styles)
 
 export function App() {
     return (
-        <div>
+        <div className={styles['hello-world']}>
             Hello World
         </div>
     )

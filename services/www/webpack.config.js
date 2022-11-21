@@ -25,6 +25,7 @@ module.exports = {
   },
   plugins: [new HtmlWebpackPlugin()],
   optimization: {
+    // Only include one copy of the runtime as it's own file.
     runtimeChunk: 'single',
     splitChunks: {
       chunks: 'all',

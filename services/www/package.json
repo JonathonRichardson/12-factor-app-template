@@ -1,6 +1,6 @@
 {
   "name": "www",
-  "packageManager": "yarn@3.0.2",
+  "packageManager": "yarn@4.0.0-rc.28",
   "dependencies": {
     "typescript": "^4.8.4",
     "webpack": "^5.74.0"

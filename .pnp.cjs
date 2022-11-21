@@ -158,6 +158,36 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/prop-types", [\
+      ["npm:15.7.5", {\
+        "packageLocation": "../../../.yarn/berry/cache/@types-prop-types-npm-15.7.5-2aa48aa177-9.zip/node_modules/@types/prop-types/",\
+        "packageDependencies": [\
+          ["@types/prop-types", "npm:15.7.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/react", [\
+      ["npm:18.0.25", {\
+        "packageLocation": "../../../.yarn/berry/cache/@types-react-npm-18.0.25-0d729c976f-9.zip/node_modules/@types/react/",\
+        "packageDependencies": [\
+          ["@types/react", "npm:18.0.25"],\
+          ["@types/prop-types", "npm:15.7.5"],\
+          ["@types/scheduler", "npm:0.16.2"],\
+          ["csstype", "npm:3.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/scheduler", [\
+      ["npm:0.16.2", {\
+        "packageLocation": "../../../.yarn/berry/cache/@types-scheduler-npm-0.16.2-ba3a7d8c68-9.zip/node_modules/@types/scheduler/",\
+        "packageDependencies": [\
+          ["@types/scheduler", "npm:0.16.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@webassemblyjs/ast", [\
       ["npm:1.11.1", {\
         "packageLocation": "../../../.yarn/berry/cache/@webassemblyjs-ast-npm-1.11.1-623d3d973e-9.zip/node_modules/@webassemblyjs/ast/",\
@@ -462,6 +492,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["csstype", [\
+      ["npm:3.1.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/csstype-npm-3.1.1-3857baf48b-9.zip/node_modules/csstype/",\
+        "packageDependencies": [\
+          ["csstype", "npm:3.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["dev-portal", [\
       ["workspace:services/dev-portal", {\
         "packageLocation": "./services/dev-portal/",\
@@ -612,6 +651,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["js-tokens", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/js-tokens-npm-4.0.0-0ac852e9e2-9.zip/node_modules/js-tokens/",\
+        "packageDependencies": [\
+          ["js-tokens", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["json-parse-even-better-errors", [\
       ["npm:2.3.1", {\
         "packageLocation": "../../../.yarn/berry/cache/json-parse-even-better-errors-npm-2.3.1-144d62256e-9.zip/node_modules/json-parse-even-better-errors/",\
@@ -635,6 +683,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/loader-runner-npm-4.3.0-9ca67df372-9.zip/node_modules/loader-runner/",\
         "packageDependencies": [\
           ["loader-runner", "npm:4.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["loose-envify", [\
+      ["npm:1.4.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/loose-envify-npm-1.4.0-6307b72ccf-9.zip/node_modules/loose-envify/",\
+        "packageDependencies": [\
+          ["loose-envify", "npm:1.4.0"],\
+          ["js-tokens", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -709,6 +767,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["randombytes", "npm:2.1.0"],\
           ["safe-buffer", "npm:5.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react", [\
+      ["npm:18.2.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/react-npm-18.2.0-1eae08fee2-9.zip/node_modules/react/",\
+        "packageDependencies": [\
+          ["react", "npm:18.2.0"],\
+          ["loose-envify", "npm:1.4.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -959,6 +1027,9 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./services/www/",\
         "packageDependencies": [\
           ["www", "workspace:services/www"],\
+          ["@types/node", "npm:18.11.9"],\
+          ["@types/react", "npm:18.0.25"],\
+          ["react", "npm:18.2.0"],\
           ["typescript", "patch:typescript@npm%3A4.9.2-rc#optional!builtin<compat/typescript>::version=4.9.2-rc&hash=d73830"],\
           ["webpack", "virtual:416c497ef8804ef1f09cf1ed62b2507c8c8aba2ec2d43d95b562c7b81f42864e2b58335c589f1d9d4a370cb1bfd151f1b20912ba2cdd0ef763275a5779ebef25#npm:5.74.0"]\
         ],\

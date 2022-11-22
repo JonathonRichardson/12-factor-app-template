@@ -2,6 +2,7 @@
     "packageManager": "yarn@4.0.0-rc.28",
     "private": true,
     "workspaces": [
+        "lib/ts/packages/*",
         "services/www",
         "services/dev-portal"
     ],

@@ -14,6 +14,10 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:."\
     },\
     {\
+      "name": "@12f-template/config",\
+      "reference": "workspace:lib/ts/packages/config"\
+    },\
+    {\
       "name": "dev-portal",\
       "reference": "workspace:services/dev-portal"\
     },\
@@ -25,6 +29,7 @@ const RAW_RUNTIME_STATE =
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
+    ["@12f-template/config", ["workspace:lib/ts/packages/config"]],\
     ["dev-portal", ["workspace:services/dev-portal"]],\
     ["root-workspace-0b6124", ["workspace:."]],\
     ["www", ["workspace:services/www"]]\
@@ -38,6 +43,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["typescript", "patch:typescript@npm%3A4.9.2-rc#optional!builtin<compat/typescript>::version=4.9.2-rc&hash=d73830"],\
           ["webpack-cli", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.0.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@12f-template/config", [\
+      ["workspace:lib/ts/packages/config", {\
+        "packageLocation": "./lib/ts/packages/config/",\
+        "packageDependencies": [\
+          ["@12f-template/config", "workspace:lib/ts/packages/config"],\
+          ["typescript", "patch:typescript@npm%3A4.9.2-rc#optional!builtin<compat/typescript>::version=4.9.2-rc&hash=d73830"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -5737,6 +5752,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./services/www/",\
         "packageDependencies": [\
           ["www", "workspace:services/www"],\
+          ["@12f-template/config", "workspace:lib/ts/packages/config"],\
           ["@types/node", "npm:18.11.9"],\
           ["@types/react", "npm:18.0.25"],\
           ["@types/react-dom", "npm:18.0.9"],\

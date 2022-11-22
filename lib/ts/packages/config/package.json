@@ -1,0 +1,8 @@
+{
+  "name": "@12f-template/config",
+  "packageManager": "yarn@4.0.0-rc.28",
+  "main": "dist/index.js",
+  "dependencies": {
+    "typescript": "4.9.2-rc"
+  }
+}

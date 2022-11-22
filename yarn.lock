@@ -5,6 +5,14 @@ __metadata:
   version: 7
   cacheKey: 9
 
+"@12f-template/config@workspace:^, @12f-template/config@workspace:lib/ts/packages/config":
+  version: 0.0.0-use.local
+  resolution: "@12f-template/config@workspace:lib/ts/packages/config"
+  dependencies:
+    typescript: "npm:4.9.2-rc"
+  languageName: unknown
+  linkType: soft
+
 "@discoveryjs/json-ext@npm:^0.5.0":
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
@@ -4635,6 +4643,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "www@workspace:services/www"
   dependencies:
+    "@12f-template/config": "workspace:^"
     "@types/node": "npm:^18.11.9"
     "@types/react": "npm:^18.0.25"
     "@types/react-dom": "npm:^18.0.9"

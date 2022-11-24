@@ -4,9 +4,18 @@
         "target": "es5",
         "module": "esnext",
         "moduleResolution": "node",
-        "rootDir": "./src",
-        "outDir": "./dist",
         "declaration": true,
-        "composite": true
-    }
+        "composite": true,
+        "jsx": "react",
+        "plugins": [{ "name": "typescript-plugin-css-modules" }]
+    },
+    "include": [
+        "./src/**/*",
+        "./src/sass-modules.d.ts",
+        "./sass-modules.d.ts"
+    ],
+    "exclude": [
+        "./src/**/*.d.ts",
+        "./src/**/*.js"
+    ]
 }

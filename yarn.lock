@@ -9,7 +9,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@12f-template/config@workspace:lib/ts/packages/config"
   dependencies:
+    "@types/react": "npm:^18.0.25"
+    react: "npm:^18.2.0"
     typescript: "npm:4.9.2-rc"
+    typescript-plugin-css-modules: "npm:^3.4.0"
   languageName: unknown
   linkType: soft
 

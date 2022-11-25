@@ -1,5 +1,7 @@
 {
-    "recommendations": [
-        "mhutchie.git-graph"
-    ]
+  "recommendations": [
+    "mhutchie.git-graph",
+    "arcanis.vscode-zipfs",
+    "syler.sass-indented"
+  ]
 }

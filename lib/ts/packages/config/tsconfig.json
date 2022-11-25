@@ -1,0 +1,21 @@
+{
+    "extends": "../../../../tsconfig.json",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "declaration": true,
+        "composite": true,
+        "jsx": "react",
+        "plugins": [{ "name": "typescript-plugin-css-modules" }],
+        "strict": true
+    },
+    "include": [
+        "./src/**/*",
+        "./src/sass-modules.d.ts"
+    ],
+    "exclude": [
+        "./src/**/*.d.ts",
+        "./src/**/*.js"
+    ]
+}

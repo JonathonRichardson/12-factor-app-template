@@ -1,0 +1,7 @@
+# Ignore Build Artifacts
+src/**/*.js
+src/**/*.d.ts
+!src/sass-modules.d.ts
+
+# Ignore TS Build cache
+*.tsbuildinfo

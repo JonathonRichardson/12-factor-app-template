@@ -12,8 +12,7 @@
     },
     "include": [
         "./src/**/*",
-        "./src/sass-modules.d.ts",
-        "./sass-modules.d.ts"
+        "./src/sass-modules.d.ts"
     ],
     "exclude": [
         "./src/**/*.d.ts",

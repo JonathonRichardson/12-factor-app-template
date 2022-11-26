@@ -1,11 +1,11 @@
 .hello-world {
-  color: red;
+    color: red;
 
-  &:hover {
-    color: blue;
-  }
+    &:hover {
+        color: blue;
+    }
 
-  &__label {
-    color: green;
-  }
+    &__label {
+        color: green;
+    }
 }

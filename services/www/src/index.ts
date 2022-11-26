@@ -6,7 +6,7 @@ import React from "react";
 
 import "./global.scss";
 
-const rootDivContainer = document.createElement('div');
+const rootDivContainer = document.createElement("div");
 document.body.append(rootDivContainer);
 const domContainer = rootDivContainer;
 

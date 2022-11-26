@@ -1,5 +1,5 @@
 import { Stuff } from "./index";
 
-test('Testing the component', () => {
+test("Testing the component", () => {
     let x = Stuff();
-})
+});

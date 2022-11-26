@@ -14,7 +14,11 @@
         "webpack-cli": "^5.0.0"
     },
     "devDependencies": {
+        "@types/eslint": "^8",
         "@types/prettier": "^2",
+        "@typescript-eslint/eslint-plugin": "^5.44.0",
+        "@typescript-eslint/parser": "^5.44.0",
+        "eslint": "^8.28.0",
         "prettier": "2.8.0"
     }
 }

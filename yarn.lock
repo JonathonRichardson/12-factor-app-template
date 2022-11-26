@@ -4027,13 +4027,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"harmony-reflect@npm:^1.4.6":
-  version: 1.6.2
-  resolution: "harmony-reflect@npm:1.6.2"
-  checksum: ef257e8c274122e94f6fd707cb5a7b50b79aecee4f8ca75944f7cd5c67060cbb7be038f1737eafb1ca766e21c5cd5e39a28367c52d079d5e554bfe224323c52c
-  languageName: node
-  linkType: hard
-
 "has-flag@npm:^3.0.0":
   version: 3.0.0
   resolution: "has-flag@npm:3.0.0"
@@ -4295,15 +4288,6 @@ __metadata:
   peerDependencies:
     postcss: ^8.1.0
   checksum: 19cb70f105e8af6b53aa518012a5aae6788985b93ee76b8a9fabed8efdfd39f5d14dbad7f15723b470794bac862d33a7d2bccedf43ece5d84f874bb0346d5abf
-  languageName: node
-  linkType: hard
-
-"identity-obj-proxy@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "identity-obj-proxy@npm:3.0.0"
-  dependencies:
-    harmony-reflect: "npm:^1.4.6"
-  checksum: 4e5730ffe129989e851bbd717ea11ee6954e2a50d85d9d5d5e6bda9ca1893445f4ff2d9c84aabc20b81a6f6939559f2769b5ab53a1085708af02953fba08b6cb
   languageName: node
   linkType: hard
 
@@ -6500,7 +6484,6 @@ __metadata:
     "@types/babel__preset-env": "npm:^7"
     "@types/jest": "npm:^29.2.3"
     babel-jest: "npm:^29.3.1"
-    identity-obj-proxy: "npm:^3.0.0"
     jest: "npm:^29.3.1"
     ts-jest: "npm:^29.0.3"
     typescript: "npm:4.9.2-rc"

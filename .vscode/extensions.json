@@ -3,6 +3,7 @@
     "mhutchie.git-graph",
     "arcanis.vscode-zipfs",
     "syler.sass-indented",
+    "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode"
   ]
 }

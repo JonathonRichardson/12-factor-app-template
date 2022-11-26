@@ -8,8 +8,7 @@
     },
     "references": [
         {
-            "path": "./lib/ts/packages/config",
+            "path": "./lib/ts/packages/config"
         }
     ]
 }
-  

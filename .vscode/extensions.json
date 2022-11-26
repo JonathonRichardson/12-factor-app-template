@@ -2,6 +2,7 @@
   "recommendations": [
     "mhutchie.git-graph",
     "arcanis.vscode-zipfs",
-    "syler.sass-indented"
+    "syler.sass-indented",
+    "esbenp.prettier-vscode"
   ]
 }

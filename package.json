@@ -6,6 +6,9 @@
         "services/www",
         "services/dev-portal"
     ],
+    "scripts": {
+        "lint:client": "eslint --ext .ts,.tsx ./"
+    },
     "dependencies": {
         "@types/jest": "^29.2.3",
         "eslint-config-prettier": "^8.5.0",

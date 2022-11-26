@@ -843,6 +843,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pkgr/utils@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "@pkgr/utils@npm:2.3.1"
+  dependencies:
+    cross-spawn: "npm:^7.0.3"
+    is-glob: "npm:^4.0.3"
+    open: "npm:^8.4.0"
+    picocolors: "npm:^1.0.0"
+    tiny-glob: "npm:^0.2.9"
+    tslib: "npm:^2.4.0"
+  checksum: aa2434a9fb5f4e9c594575186d1251b3acc8f05c90dfa1e7b016340064235600f64d4e684775a5594c269be5d70ba10d41ca48660683a7dd7753707bad6e9478
+  languageName: node
+  linkType: hard
+
 "@sinclair/typebox@npm:^0.24.1":
   version: 0.24.51
   resolution: "@sinclair/typebox@npm:0.24.51"
@@ -3046,6 +3060,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-import-resolver-typescript@npm:^3.5.2":
+  version: 3.5.2
+  resolution: "eslint-import-resolver-typescript@npm:3.5.2"
+  dependencies:
+    debug: "npm:^4.3.4"
+    enhanced-resolve: "npm:^5.10.0"
+    get-tsconfig: "npm:^4.2.0"
+    globby: "npm:^13.1.2"
+    is-core-module: "npm:^2.10.0"
+    is-glob: "npm:^4.0.3"
+    synckit: "npm:^0.8.4"
+  peerDependencies:
+    eslint: "*"
+    eslint-plugin-import: "*"
+  checksum: b725f2dfe8b3f7ae53c6a3a941ba08444e03d77e8462cc07692b8646de365f5e2bb95fdf43a1e921d8c69c4e656afe51de2af0f89e11b85a26d27ea35d6db099
+  languageName: node
+  linkType: hard
+
 "eslint-module-utils@npm:^2.7.3":
   version: 2.7.4
   resolution: "eslint-module-utils@npm:2.7.4"
@@ -3373,7 +3405,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.9":
+"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.9":
   version: 3.2.12
   resolution: "fast-glob@npm:3.2.12"
   dependencies:
@@ -3677,6 +3709,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"get-tsconfig@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "get-tsconfig@npm:4.2.0"
+  checksum: 9bdb940c9a30bbc87818e2c1c46fdf39708b913388e71fe0d30a3e8f6b4146d871d6fc9d6834220de84ece85f45872f41a1a8207f709bbfa7f9dcb38909a1a99
+  languageName: node
+  linkType: hard
+
 "glob-parent@npm:^5.1.2, glob-parent@npm:~5.1.2":
   version: 5.1.2
   resolution: "glob-parent@npm:5.1.2"
@@ -3745,6 +3784,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"globalyzer@npm:0.1.0":
+  version: 0.1.0
+  resolution: "globalyzer@npm:0.1.0"
+  checksum: e52e064b89ef5a42ce76b92a4919e518c80615c80839f7d214f51c96ce5945308147a422a11c853760fc7a9a41cf8cc8fb7813c5816f2808d8fd4c066d0805a9
+  languageName: node
+  linkType: hard
+
 "globby@npm:^11.1.0":
   version: 11.1.0
   resolution: "globby@npm:11.1.0"
@@ -3756,6 +3802,26 @@ __metadata:
     merge2: "npm:^1.4.1"
     slash: "npm:^3.0.0"
   checksum: 3047df770874d103dafe26084f998f562e8a8e2930896940e0bdbdc27c1f7574570f231dc2aa981d941dc84c93db05ce7cd81667488b040412e88740186fc22e
+  languageName: node
+  linkType: hard
+
+"globby@npm:^13.1.2":
+  version: 13.1.2
+  resolution: "globby@npm:13.1.2"
+  dependencies:
+    dir-glob: "npm:^3.0.1"
+    fast-glob: "npm:^3.2.11"
+    ignore: "npm:^5.2.0"
+    merge2: "npm:^1.4.1"
+    slash: "npm:^4.0.0"
+  checksum: 9b418983d4b2dab9599cf9b2d1535c547d206e96796a699086e7a6b0e5d8ba63ee7653b1e3e3afa1747e1accf70fdc58fcb246dec282b3235a23a0b03fe14a7c
+  languageName: node
+  linkType: hard
+
+"globrex@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "globrex@npm:0.1.2"
+  checksum: e1f161f0e15cdfc29df57c8d3d8380063e7f0f8ea0322ae5fbec9fe14ebc62fd337d65a2d80a479faade7c7ef079e062eb11586e43016d0b6b5989bd2e7b1d1b
   languageName: node
   linkType: hard
 
@@ -4240,7 +4306,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
+"is-core-module@npm:^2.10.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
   version: 2.11.0
   resolution: "is-core-module@npm:2.11.0"
   dependencies:
@@ -5801,7 +5867,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"open@npm:^8.0.9":
+"open@npm:^8.0.9, open@npm:^8.4.0":
   version: 8.4.0
   resolution: "open@npm:8.4.0"
   dependencies:
@@ -6590,6 +6656,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:^5.44.0"
     eslint: "npm:^8.28.0"
     eslint-config-prettier: "npm:^8.5.0"
+    eslint-import-resolver-typescript: "npm:^3.5.2"
     eslint-plugin-import: "npm:^2.26.0"
     eslint-plugin-react: "npm:^7.31.11"
     eslint-plugin-react-hooks: "npm:^4.6.0"
@@ -6896,6 +6963,13 @@ __metadata:
   version: 3.0.0
   resolution: "slash@npm:3.0.0"
   checksum: b88a0f1086e3cd20c8b61f50d8afff5fba83f95167a86432f54387565c9424e5d1970612371f768c128ed4b5b1c427120382bafc8c9edf0b3737eb226b733687
+  languageName: node
+  linkType: hard
+
+"slash@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "slash@npm:4.0.0"
+  checksum: 0327fcda20ceb59983f59b6016ecc1d8a0c750a66af0205cdb0d0b92b857586c847515d3098a7538816c61a145d3822aec5509b0fe5c9ccff14789e0603c8ea1
   languageName: node
   linkType: hard
 
@@ -7240,6 +7314,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"synckit@npm:^0.8.4":
+  version: 0.8.4
+  resolution: "synckit@npm:0.8.4"
+  dependencies:
+    "@pkgr/utils": "npm:^2.3.1"
+    tslib: "npm:^2.4.0"
+  checksum: 4e48556558263008c05df5f747b20b34ba919d7b41dda61e0756d3a7e26ade65b1b2c30e2772f8a5782fac01a6973d6bb5cd9d5636c8f04f61a1bded9e9feea7
+  languageName: node
+  linkType: hard
+
 "tapable@npm:^2.0.0, tapable@npm:^2.1.1, tapable@npm:^2.2.0":
   version: 2.2.1
   resolution: "tapable@npm:2.2.1"
@@ -7319,6 +7403,16 @@ __metadata:
   version: 1.1.0
   resolution: "thunky@npm:1.1.0"
   checksum: f11ef2d8a31915498d7e33cd7e6c46f6165c7d221aa052695039646ecf670b6cb9d3d9883f43054133642e1d526204d91b6852e6d01841c33b0878d26649b906
+  languageName: node
+  linkType: hard
+
+"tiny-glob@npm:^0.2.9":
+  version: 0.2.9
+  resolution: "tiny-glob@npm:0.2.9"
+  dependencies:
+    globalyzer: "npm:0.1.0"
+    globrex: "npm:^0.1.2"
+  checksum: 41f9a38124164bda6a2149f951e046c555a508ce22cbad2d08b7d4066622faa6933feae503c647815342b9e461ffc93cf7e41b28e835030480b081e000b1caf7
   languageName: node
   linkType: hard
 
@@ -7419,7 +7513,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.3, tslib@npm:^2.3.0":
+"tslib@npm:^2.0.3, tslib@npm:^2.3.0, tslib@npm:^2.4.0":
   version: 2.4.1
   resolution: "tslib@npm:2.4.1"
   checksum: a739a21e3ff059e62c7c3c0845333fbc9c081bcc91e015f2d246a31eeaf1fb0e29b10c0913c7d22f692b3203bb469fd60ca5288aa4f27d351a969df2d0714899

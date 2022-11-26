@@ -48,6 +48,24 @@ module.exports = {
                 // "react-hooks/exhaustive-deps": "warn", // Checks effect
                 "react/no-danger": ["error"],
                 "prefer-const": ["warn"],
+
+                // "no-unused-vars": [
+                //     "warn",
+                //     { destructuredArrayIgnorePattern: "^_", varsIgnorePattern: "props" },
+                // ],
+
+                // We'll disable this in favor of the TypeScript version.
+                "no-unused-vars": ["off"],
+
+                "@typescript-eslint/no-unused-vars": [
+                    "warn",
+                    {
+                        destructuredArrayIgnorePattern: "^_",
+                        varsIgnorePattern: "[iI]gnored",
+                        args: "none",
+                    },
+                ],
+
                 //"sort-imports": ["warn"],
 
                 // Disabling sort-keys.  Although it would help alleviate a few issues regarding
@@ -81,10 +99,9 @@ module.exports = {
 
             parserOptions: {
                 tsconfigRootDir: __dirname,
-                project: [
-                    //"./tsconfig.json",
-                    "./services/www/package.json",
-                ], // Specify it only for TypeScript files
+                project: ["lib/ts/packages/*/tsconfig.json", "services/*/tsconfig.json"],
+
+                //project: ["./tsconfig.json"], // Specify it only for TypeScript files
             },
         },
     ],
@@ -98,6 +115,13 @@ module.exports = {
             // It will default to "detect" in the future
             //   "flowVersion": "0.53" // Flow version
         },
-        "import/resolver": "webpack",
+        "import/resolver": {
+            typescript: {
+                alwaysTryTypes: true, // always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
+
+                // use an array of glob patterns
+                project: ["lib/ts/packages/*/tsconfig.json", "services/*/tsconfig.json"],
+            },
+        },
     },
 };

@@ -5,6 +5,6 @@ test("cx concats class names", () => {
 });
 
 test("cx ignores false, null, and undefined values", () => {
-    let classNames = cx("a", false && "b", null, undefined, "c d");
+    const classNames = cx("a", false && "b", null, undefined, "c d");
     expect(classNames).toBe("a c d");
 });

@@ -3,7 +3,7 @@ import styles from "./App.module.scss";
 
 import { getConfig } from "@12f-template/config";
 
-import { add } from "@12f-template/config/utils";
+import { cx } from "@12f-template/config/utils";
 
 console.log('styles', styles);
 
@@ -13,7 +13,7 @@ import { Stuff } from "@12f-template/config";
 
 export function App() {
     return (
-        <div className={styles['hello-world']} qa-component-name={'app'}>
+        <div className={cx(styles['hello-world'])} qa-component-name={'app'}>
             Hello World
             <Stuff />
         </div>

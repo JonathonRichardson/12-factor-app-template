@@ -42,7 +42,9 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@types/jest", "npm:29.2.3"],\
+          ["@types/prettier", "npm:2.7.1"],\
           ["jest", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:29.3.1"],\
+          ["prettier", "npm:2.8.0"],\
           ["ts-jest", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:29.0.3"],\
           ["typescript", "patch:typescript@npm%3A4.9.2-rc#optional!builtin<compat/typescript>::version=4.9.2-rc&hash=d73830"],\
           ["webpack-cli", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.0.0"]\
@@ -6523,6 +6525,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["prettier", [\
+      ["npm:2.8.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/prettier-npm-2.8.0-746e3df53e-9.zip/node_modules/prettier/",\
+        "packageDependencies": [\
+          ["prettier", "npm:2.8.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["pretty-error", [\
       ["npm:4.0.0", {\
         "packageLocation": "../../../.yarn/berry/cache/pretty-error-npm-4.0.0-7cca1fe4ad-9.zip/node_modules/pretty-error/",\
@@ -6899,7 +6910,9 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["root-workspace-0b6124", "workspace:."],\
           ["@types/jest", "npm:29.2.3"],\
+          ["@types/prettier", "npm:2.7.1"],\
           ["jest", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:29.3.1"],\
+          ["prettier", "npm:2.8.0"],\
           ["ts-jest", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:29.0.3"],\
           ["typescript", "patch:typescript@npm%3A4.9.2-rc#optional!builtin<compat/typescript>::version=4.9.2-rc&hash=d73830"],\
           ["webpack-cli", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.0.0"]\
